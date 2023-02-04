@@ -1,0 +1,20 @@
+.overallrating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.stars{
+    color: #F4CE14;
+    text-shadow: 2px 2px #4d4b4b;
+    font-size: 2rem;
+}
+.textrating{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+

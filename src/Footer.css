@@ -1,0 +1,20 @@
+.footercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 4%;
+    margin-top: 2%;
+    background-color: #495E57;
+  
+}
+#footer-logo{
+    padding-top: 50px;
+}
+.section-name{
+    color: #F4CE14;
+}
+.ulstyle>ul>li>a{
+    color: #F4CE14;
+}
+

@@ -1,0 +1,34 @@
+.background{
+    background-color: #FBDABB;
+}
+#heading{
+    display: block;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 3rem;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.testCard{
+    background-color: #EDEFEE;
+    padding: 2%;
+    width: 200px;
+    margin: 2%;
+    border-radius: 10px;
+}
+.testCard>img{
+    border-radius: 10px;
+}
+.testCard>h3>span{
+    color:  #F4CE14;
+    text-shadow: 2px 2px #4d4b4b;
+}
+

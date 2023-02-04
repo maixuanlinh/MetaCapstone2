@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+.cardscontainer{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cardsheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    margin-top: 5rem;
+}
+.cardsheader>h1{
+    font-size: 4rem;
+}
+.cardsheader>button{
+    color: #333333;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-color: #F4CE14;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deckofcards{
+display: flex;
+justify-content:space-between;
+flex-wrap: wrap;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: #EDEFEE;
+    border-radius: 10px;
+}
+
+.card>img{
+    max-height:190px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card>p{
+    margin-top: -10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+}
+.content>h3{
+    font-size: 1.6rem;
+    align-self: center;
+}
+.content>h3:nth-child(2){
+    color: #EE9972;
+}
+@media only screen and (max-width: 600px) {
+    .cardsheader{
+        margin-top: .5rem;
+    }
+    .cardsheader>h1{
+        text-align: center;
+    }
+    .card{
+        height: 400px;
+        width: 300px;
+        background-color: #EDEFEE;
+        border-radius: 10px;
+        margin-top: 2rem;
+    }
+    .cardsheader>button{
+        width: 100%;
+    }
+  }
